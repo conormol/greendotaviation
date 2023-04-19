@@ -65,11 +65,20 @@ main, footer {
 
 .copyright {
     padding: 1rem;
+    opacity: .6;
+}
+
+.contact--detail {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 footer {
     background-color: rgb(1, 73, 1);
-    height: 3rem;
+    min-height: 5rem;
     bottom: 0;
     padding: 1rem;
 }
