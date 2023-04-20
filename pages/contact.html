@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/styles/contact_style.css" rel="stylesheet" type="text/css">
+    <link href="../resources/styles/contact_style.css" rel="stylesheet" type="text/css">
     <link href="../resources/styles/global_styles.css" rel="stylesheet" type="text/css">
     <title>Green Dot Aviation: Home</title>
 </head>
@@ -27,7 +27,29 @@
                 </nav>
             </div>
         </section>
-
+        <form class="contact--form" action="https://formsubmit.co/conor_molloy@live.com" method="POST">
+            <h1>Contact</h1>
+            <div class="form--element" id="name">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name"required>
+            </div>
+            <div class="form--element" id="email">
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email"required>
+            </div>
+            <div class="form--element" id="subject">
+                <label for="subject">Subject: </label>
+                <input type="text" name="subject" id="subject">
+            </div>
+            <div class="form--element" id="inquiry">
+                <label for="inquiry"></label>
+                <br>
+                <textarea  type="text" name="inquiry" id="inquiry" required rows="10" cols="50"></textarea>
+            </div>
+            <div class="form--element" id="submit--button">
+                <input class="submit--button" type="submit" value="Send">
+            </div>
+            </form>
     </main>
     <footer>
         <span class="contact--detail">

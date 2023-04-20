@@ -1,0 +1,15 @@
+.video--grid {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+}
+
+.video--grid iframe {
+    width: 24rem;
+    height: 13.5rem;
+    margin: 2rem 1rem;
+}
+
+
+

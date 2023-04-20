@@ -1,0 +1,26 @@
+form {
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;    
+}
+
+.form--element {
+    margin: 2rem 0;
+}
+
+input, 
+textarea {
+    background-color: rgb(156, 156, 156);
+    color: black;
+}
+
+label {
+    margin-right: 1rem;
+}
+
+#submit--button {
+    box-shadow: none;
+    border: none;
+    background-color: black;
+}
+
